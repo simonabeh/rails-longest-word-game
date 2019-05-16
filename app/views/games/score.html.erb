@@ -1,0 +1,18 @@
+<h1>Games#score</h1>
+<p>Find me in app/views/games/score.html.erb</p>
+
+<% if @result == 1 %>
+<p>
+Sorry but <strong><%= @test.join.upcase %></strong> can't be built out of <%= @letters.to_sentence %>
+</p>
+<% elsif @result == 2 %>
+<p>
+Sorry but <strong><%= @test.join.upcase %></strong> does not seem to be a valid English word
+</p>
+<% else %>
+<p>
+Congratulation! <strong><%= @test.join.upcase %></strong> is a valid English word!
+</p>
+<% end  %>
+<%=  %>
+<%  %>
